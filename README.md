@@ -40,9 +40,3 @@ CREATE TABLE blogs (
 * **Content Management**: Complete Create, Read, Update, and Delete actions for blog items mapped to active users.
 * **Query Optimization**: Implements pattern-matching search functionality using title and tag lookups, along with chronological date sorting.
 
-## Local Deployment Workflow
-1. Ensure a local MySQL database instance is active and configure the connection credentials inside the DBConnection.java profile.
-2. Clone this repository directly into your local IDE workspace.
-3. Link and configure your Apache Tomcat Server instance within your deployment workspace.
-4. Add the application to your runtime server configuration and deploy.
-5. Launch your browser and navigate to: http://localhost:8080/SimpleBlog
