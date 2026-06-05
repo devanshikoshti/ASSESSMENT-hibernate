@@ -7,8 +7,7 @@ public class DBConnection {
 
     private static Connection connection;
 
-    private DBConnection() {
-    }
+    
 
     public static Connection getConnection() {
 
@@ -21,7 +20,7 @@ public class DBConnection {
                 connection = DriverManager.getConnection(
                         "jdbc:mysql://localhost:3306/simpleblog",
                         "root",
-                        "root"
+                        "2410"
                 );
             }
 
